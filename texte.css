@@ -1,0 +1,151 @@
+#Background1{
+    background-image: url(images/pigeon.jpg);
+    background-repeat :no-repeat;
+    width: auto;
+    height: 45%;
+    background-size: 100% 100%
+}
+#TitleBG{
+    text-align: center;
+    font-size: 50px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif ;
+}
+footer{
+    width: auto;
+    height: 10%;
+    text-align:center;
+    background-color: aquamarine; 
+    border: 5px 5px 5px 5px;
+    border-color: black;
+    border-style: solid;
+}
+.TexteFooter{
+    padding: 2%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.MenuNav{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightsalmon;
+    margin: 0 0 10px 0;
+    display:flex;
+    border: 5px 5px 5px 5px;
+    border-color: white;
+    border-style: solid;
+}
+.MenuNav a{
+    flex:auto;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 24px;
+}
+header{
+    width: auto;
+    height: 10%;
+    text-align:center;
+    background-color: lightskyblue; 
+    margin-bottom: 10px;
+    border: 5px 5px 5px 5px;
+    border-color: black;
+    border-style: solid;
+}
+header h1{
+    font-size: 45px;
+    
+}
+#ListeArticles{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    color:white;
+}
+#ListeArticles dt{
+    flex:auto;
+    text-align: justify;
+    
+    
+}
+body{
+    background-color: lightslategrey;
+}
+.Titre24px{
+    font-family: monospace;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#PhotoCreateur{
+   
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    height: 35%;
+    width: 50%;
+
+    
+}
+#ContainerCrea{
+    margin-bottom: 5%;
+}
+.TextCenter{
+    text-align: center;
+}
+.FlexContainer{
+    display:flex;
+}
+.PhotoArticle{
+    flex:none;
+    width:150px;
+    height: 150px;
+    border: 10px 10px 10px 10px;
+    border-color: greenyellow;
+    border-style: solid;
+    
+}
+.MenuNavArticle{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: goldenrod;
+    margin: 10px 10px 10px 10px;
+    display:flex;
+   
+}
+.MenuNavArticle a{
+    flex:auto;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+.TexteFlexArticle{
+    flex:4;
+    text-align: center;
+    
+}
+.TexteParaTop{
+    text-align: justify;
+    font-size: 20px;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    border-top: 10px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-style: double;
+    color: white;
+}
+.TextePara{
+    text-align: justify;
+    font-size: 20px;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    
+
+    color: white;
+}
