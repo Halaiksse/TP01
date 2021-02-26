@@ -18,6 +18,9 @@ footer{
     border: 5px 5px 5px 5px;
     border-color: black;
     border-style: solid;
+    outline-style: solid;
+    outline-color: lightskyblue;
+    
 }
 .TexteFooter{
     padding: 2%;
@@ -35,6 +38,8 @@ footer{
     border-color: black;
     border-style: solid;
     margin-top: 10px;
+    outline-style: solid;
+    outline-color: lightskyblue;
 }
 .MenuNav a{
     color: blue;
